@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f4f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .profile-card {
+    background:lightcyan;
+    border-radius: 20px;
+    padding: 30px;
+    width: 200px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    text-align: center;
+  }
+  
+  .profile-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #4a90e2;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    margin: 10px 0 5px;
+    font-size: 24px;
+  }
+  
+  .role {
+    color: #4a90e2;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .bio {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    background-color:lightblue;
+    border-radius: 15px;
+    width: 90px;
+    height: 25px;
+    margin: 3px;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #4a90e2;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #2c3e50;
+  }
+  
